@@ -19,7 +19,15 @@ O sistema demonstra **quatro abordagens algorítmicas** distintas, comparando su
 | Gabriel Matias Simões    | RM 556171 
 | Leonardo Rocha Scarpitta | RM 555460
 | Murilo Justi Rodrigues   | RM 554512
-
+```
+╔══════════════════════════════════════════════════════════╗
+║  Nome Completo | RM                                      ║
+║                                                          ║
+║  Gabriel Matias Simões    | RM 556171                    ║
+║  Leonardo Rocha Scarpitta | RM 555460                    ║
+║  Murilo Justi Rodrigues   | RM 554512                    ║
+╚══════════════════════════════════════════════════════════╝
+```
 
 ---
 
