@@ -1,0 +1,41 @@
+name: Test Portfolio Optimization
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.7', '3.8', '3.9', '3.10', '3.11']
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+    
+    - name: Display Python version
+      run: python -c "import sys; print(sys.version)"
+    
+    - name: Run portfolio optimization
+      run: python portfolio_optimization.py
+    
+    - name: Check syntax
+      run: python -m py_compile portfolio_optimization.py
+    
+    - name: Verify greedy failure detection
+      run: |
+        output=$(python portfolio_optimization.py)
+        if echo "$output" | grep -q "GREEDY FAILURE DETECTED"; then
+          echo "✓ Greedy failure correctly detected"
+        else
+          echo "✗ Greedy failure not detected"
+          exit 1
+        fi
