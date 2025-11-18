@@ -246,66 +246,6 @@ O programa executará automaticamente 5 casos de teste e exibirá:
 
 ---
 
-## 📚 Referências Bibliográficas
-
-1. **CORMEN, T. H. et al.** *Introduction to Algorithms*, 3rd Edition. MIT Press, 2009.
-   - Capítulo 15: Dynamic Programming
-   - Seção 15.2: Matrix-chain multiplication
-   - Seção 16.2: Elements of the greedy strategy
-
-2. **KLEINBERG, J.; TARDOS, É.** *Algorithm Design*. Pearson, 2005.
-   - Capítulo 6: Dynamic Programming
-   - Seção 6.4: Knapsack Problem
-
-3. **SEDGEWICK, R.; WAYNE, K.** *Algorithms*, 4th Edition. Addison-Wesley, 2011.
-   - Capítulo sobre Dynamic Programming
-
-4. **Materiais do Curso**
-   - Slides Prof. Marcelo Amorim - Programação Dinâmica
-   - FIAP, 2º Semestre 2025
-
-5. **Documentação Python**
-   - Python 3.11 Documentation: https://docs.python.org/3/
-   - PEP 8 - Style Guide for Python Code
-
----
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
-
-```
-MIT License
-
-Copyright (c) 2025 FIAP - Equipe de Desenvolvimento
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction...
-```
-
----
-
-## 📌 Histórico de Versões
-
-| Versão | Data | Descrição |
-|--------|------|-----------|
-| 1.0.0 | 14/11/2025 | Versão inicial completa com 4 fases implementadas |
-| 1.1.0 | 14/11/2025 | Refatoração para estrutura modular (src/ e tests/) |
-| 1.2.0 | 14/11/2025 | Consolidação em src/ único, tradução completa PT-BR |
-
----
-
-## 🔧 Suporte e Contato
-
-Para dúvidas ou sugestões sobre o projeto:
-
-- **Issues:** Abra uma issue no repositório GitHub
-- **Email:** Consulte a seção "Equipe de Desenvolvimento"
-- **Professor:** Marcelo Amorim - [email do professor]
-
----
-
 ## ⚡ Quick Start
 
 ```bash
@@ -329,11 +269,6 @@ GS/
 
 ---
 
-**Última atualização:** 14 de Novembro de 2025
-
-**Desenvolvido com 💙 para FIAP - Programação Dinâmica**
-
----
 
 ## 🎯 Observações Importantes
 
